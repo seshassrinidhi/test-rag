@@ -1,13 +1,15 @@
 from sentence_transformers import SentenceTransformer
 from ingest import documents
-
+# -----------------------------------
+# 1. other embedding model and why we need vs embedding model vs Vector DB vs llm vs api key vs transformer
+# -----------------------------------
 
 # -----------------------------------
 # 1. Load embedding model
 # -----------------------------------
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
-
+#test
 
 # -----------------------------------
 # 2. Extract text from our documents
